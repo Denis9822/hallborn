@@ -17,7 +17,7 @@ setTimeout(sayHi, 1000);
 
 $(window).scroll(function() {
     var scroll = $(window).scrollTop() + $(window).height();
-    if ($(window).scrollTop() > 50) {
+    if ($(window).scrollTop() > 10) {
         $('.nav-toggle-wrap').attr('style', 'margin-top:90px !important');
     } else {
         $('.nav-toggle-wrap').attr('style', 'margin-top:120px !important');
