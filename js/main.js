@@ -6,3 +6,10 @@ $('.header_lang_active').click(function() {
 $('#hw-slide-msg-close').click(function() {
     $('.nav-toggle-wrap').addClass('mt0');
 })
+
+
+function sayHi() {
+    $('.header_lang_select a').attr('target', '_self');
+}
+
+setTimeout(sayHi, 1000);
